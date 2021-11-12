@@ -1,0 +1,49 @@
+.wrapper{
+  width:100%;
+  height:100%;
+}
+.grid{
+  display:grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  /* border: 1px solid black; */
+}
+
+.col1{
+  background-color: rgb(200,50,50);
+  height:50%;
+}
+
+.col2{
+  background-color: rgb(50,200,50);
+  height:25%;
+  transition: 0.5s;
+}
+
+/* .col2:hover{
+  background-color:pink;
+} */
+
+.final{
+  background-color: rgb(50,50,200);
+  height:100%;
+}
+
+/* @media screen and (max-width:36rem){
+  .grid{
+    grid-template-columns:1fr;
+    max-width: 100%;
+    grid-row-gap: .5rem;
+  }
+
+  .col1{
+    background-color: yellow;
+    height:100%;
+  }
+
+  .col2{
+    height:100%;
+  }
+  .final{
+    background-color: pink;
+  }
+} */
