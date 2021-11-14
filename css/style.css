@@ -19,16 +19,16 @@
   transition: 0.5s;
 }
 
-/* .col2:hover{
+.col2:hover{
   background-color:pink;
-} */
+}
 
 .final{
   background-color: rgb(50,50,200);
   height:100%;
 }
-
-/* @media screen and (max-width:36rem){
+/*some added SPICE*/
+@media screen and (max-width:36rem){
   .grid{
     grid-template-columns:1fr;
     max-width: 100%;
@@ -46,4 +46,4 @@
   .final{
     background-color: pink;
   }
-} */
+}
